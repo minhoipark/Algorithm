@@ -1,0 +1,10 @@
+def solution(arr):
+    hap =0
+    for i in arr:
+        hap +=i
+    return hap/len(arr)
+
+
+if __name__ == '__main__':
+    arr = solution([1,2,3,4])
+    print(arr)
